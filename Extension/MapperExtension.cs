@@ -22,10 +22,10 @@ public static class MapperExtension
         }
         return target;
     }
-    public static IEnumerable<TTarget> MapCollection<TSource, TTarget>(this IEnumerable<TSource> source) where TTarget : new()
+    public static List<TTarget> MapCollection<TSource, TTarget>(this IEnumerable<TSource> source) where TTarget : new()
     {
         if (source == null) 
             throw new ArgumentNullException(nameof(source));
-        return source.Select(item => item.Map<TSource, TTarget>());
+        return source.Select(item => item.Map<TSource, TTarget>()).ToList();
     }
 }
