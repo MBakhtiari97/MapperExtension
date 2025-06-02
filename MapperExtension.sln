@@ -5,6 +5,10 @@ VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapperExtension", "MapperExtension.csproj", "{06235120-5EDF-4C18-BBD4-79F61782435B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{78F66944-A85C-4CC8-8C6E-57AD6116D605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "..\Entity\Entity.csproj", "{77B67024-E761-4F45-88E8-5F1093BD6009}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{06235120-5EDF-4C18-BBD4-79F61782435B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06235120-5EDF-4C18-BBD4-79F61782435B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06235120-5EDF-4C18-BBD4-79F61782435B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F66944-A85C-4CC8-8C6E-57AD6116D605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F66944-A85C-4CC8-8C6E-57AD6116D605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F66944-A85C-4CC8-8C6E-57AD6116D605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F66944-A85C-4CC8-8C6E-57AD6116D605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B67024-E761-4F45-88E8-5F1093BD6009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B67024-E761-4F45-88E8-5F1093BD6009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B67024-E761-4F45-88E8-5F1093BD6009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B67024-E761-4F45-88E8-5F1093BD6009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
